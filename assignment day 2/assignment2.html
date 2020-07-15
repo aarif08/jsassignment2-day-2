@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>assignment2 day2</title>
+</head>
+<body>
+    //var declaration are globally scoped on functional, 
+    locally scoped . this means that any variable 
+    that is decalred with var outside a functional block 
+    is available for use in wole window//
+    <script>
+        var greeter="hey hi";
+        function newfunction()
+        {
+            var hello="hello";
+        }
+    </script>
+ //let is bloc scoped , a block is chunk of code bonded
+by{} a block lives in curly braces and anything between curly braces is a 
+block//
+<script>
+    let greeting="say hi";
+    let time=4;
+    if time>3
+    {
+    console.log(greeting);
+    }
+
+</script>
+
+//variable declared with the const maintain constant 
+values ,const declaration share some similarities  with
+let declaration . it cannot be updated or re decalred//
+<script>
+    const greeting
+    {
+        message:"say hi";
+        times:4;
+    }
+</script>
+</body>
+</html>
